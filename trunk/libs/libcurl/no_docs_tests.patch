@@ -1,6 +1,6 @@
-diff -urN curl-8.14.1-orig/Makefile.am curl-8.14.1/Makefile.am
---- curl-8.14.1-orig/Makefile.am	2025-06-04 08:42:09.000000000 +0300
-+++ curl-8.14.1/Makefile.am	2025-06-22 18:30:39.244684467 +0300
+diff -urN curl-8.15.0-orig/Makefile.am curl-8.15.0/Makefile.am
+--- curl-8.15.0-orig/Makefile.am	2025-06-04 08:42:09.000000000 +0300
++++ curl-8.15.0/Makefile.am	2025-06-22 18:30:39.244684467 +0300
 @@ -92,7 +92,7 @@
  bin_SCRIPTS = curl-config
  
@@ -26,9 +26,9 @@ diff -urN curl-8.14.1-orig/Makefile.am curl-8.14.1/Makefile.am
  
  # We extend the standard uninstall with a custom hook:
  uninstall-hook:
-diff -rupw curl-8.14.1-orig/Makefile.in curl-8.14.1/Makefile.in
---- curl-8.14.1-orig/Makefile.in	2025-06-04 08:42:09.000000000 +0300
-+++ curl-8.14.1/Makefile.in	2025-06-22 18:30:39.245684364 +0300
+diff -rupw curl-8.15.0-orig/Makefile.in curl-8.15.0/Makefile.in
+--- curl-8.15.0-orig/Makefile.in	2025-06-04 08:42:09.000000000 +0300
++++ curl-8.15.0/Makefile.in	2025-06-22 18:30:39.245684364 +0300
 @@ -508,7 +508,7 @@
  
  bin_SCRIPTS = curl-config
@@ -51,9 +51,9 @@ diff -rupw curl-8.14.1-orig/Makefile.in curl-8.14.1/Makefile.in
  
  # We extend the standard uninstall with a custom hook:
  uninstall-hook:
-diff -urN curl-8.14.1-orig/configure.ac curl-8.14.1/configure.ac
---- curl-8.14.1-orig/configure.ac	2025-06-04 08:42:09.000000000 +0300
-+++ curl-8.14.1/configure.ac	2025-06-22 18:30:39.245684364 +0300
+diff -urN curl-8.15.0-orig/configure.ac curl-8.15.0/configure.ac
+--- curl-8.15.0-orig/configure.ac	2025-06-04 08:42:09.000000000 +0300
++++ curl-8.15.0/configure.ac	2025-06-22 18:30:39.245684364 +0300
 @@ -5471,33 +5471,16 @@
  CURL_PREPARE_CONFIGUREHELP_PM
  
